@@ -11,6 +11,8 @@
 		AB73D9CC2917556400AEF317 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB73D9CB2917556400AEF317 /* ContentView.swift */; };
 		AB73D9CE2917556800AEF317 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB73D9CD2917556800AEF317 /* Assets.xcassets */; };
 		AB73D9D12917556800AEF317 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB73D9D02917556800AEF317 /* Preview Assets.xcassets */; };
+		AB73D9D9291755D800AEF317 /* VehicalClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB73D9D8291755D800AEF317 /* VehicalClass.swift */; };
+		AB73D9DB2917601D00AEF317 /* StudentDescriptonSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB73D9DA2917601D00AEF317 /* StudentDescriptonSwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		AB73D9CB2917556400AEF317 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AB73D9CD2917556800AEF317 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB73D9D02917556800AEF317 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB73D9D8291755D800AEF317 /* VehicalClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicalClass.swift; sourceTree = "<group>"; };
+		AB73D9DA2917601D00AEF317 /* StudentDescriptonSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDescriptonSwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +55,12 @@
 		AB73D9C82917556400AEF317 /* LearningSwift */ = {
 			isa = PBXGroup;
 			children = (
+				AB73D9D7291755BD00AEF317 /* Classes */,
 				AB73D9C92917556400AEF317 /* LearningSwiftApp.swift */,
 				AB73D9CB2917556400AEF317 /* ContentView.swift */,
 				AB73D9CD2917556800AEF317 /* Assets.xcassets */,
 				AB73D9CF2917556800AEF317 /* Preview Content */,
+				AB73D9DA2917601D00AEF317 /* StudentDescriptonSwiftUIView.swift */,
 			);
 			path = LearningSwift;
 			sourceTree = "<group>";
@@ -65,6 +71,14 @@
 				AB73D9D02917556800AEF317 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB73D9D7291755BD00AEF317 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AB73D9D8291755D800AEF317 /* VehicalClass.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB73D9CC2917556400AEF317 /* ContentView.swift in Sources */,
+				AB73D9DB2917601D00AEF317 /* StudentDescriptonSwiftUIView.swift in Sources */,
 				AB73D9CA2917556400AEF317 /* LearningSwiftApp.swift in Sources */,
+				AB73D9D9291755D800AEF317 /* VehicalClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
